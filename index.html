@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Juego de adivinar el número</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,700;1,500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <div class="container">
+        
+        <div class="adivinanza1">
+            <h1>Adivina el número</h1>
+
+            <p class="introduce">Introduce un número entre 1 y 100</p>
+            <p class="wp">Intentos : <span id="intento"></span> </p>
+            <div class="contenido">
+           
+
+                <input placeholder="Numero" type="number" id="numeroEntrada">
+                <button class="desabilitar" onclick="chequearResultado()">Comprobar</button>
+                <div class="res">
+                    <button class="restart">Reiniciar </button>
+                </div>
+            </div>
+            <p id="mensaje"></p>
+        </div>
+
+
+        <!---
+        <div class="adivinanza2">
+            <h1>Adivina el número par</h1>
+            <p>Introduce un número par entre 2 y 300:</p>
+            <input type="number" id="numeroEntrada">
+            <button class="desabilitar" onclick="chequearResultado()">Comprobar</button>
+            <div class="res">
+                <button class="restart">Reiniciar </button>
+            </div>
+            <p id="mensaje"></p>
+        </div>
+
+
+        
+        <div class="adivinanza3">
+            <h1>Adivina el número inpar</h1>
+            <p>Introduce un número par entre 1 y 501:</p>
+            <input type="number" id="numeroEntrada">
+            <button class="desabilitar" onclick="chequearResultado()">Comprobar</button>
+            <div class="res">
+                <button class="restart">Reiniciar </button>
+            </div>
+            <p id="mensaje"></p>
+        </div>
+
+
+
+
+
+    </div>
+
+    
+------->
+        <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.9.0/dist/confetti.browser.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+     
+
+        <script src="script.js"></script>
+</body>
+
+</html>

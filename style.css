@@ -1,0 +1,105 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+}
+body {
+    text-align: center;
+    background: #000000dc;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  h1 {
+    color: #fdfdfd;
+    font-family: Arial, sans-serif;
+  }
+
+  p{
+    color: white;
+  }
+  
+  input {
+    padding: 5px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+
+   
+  }
+  
+  #mensaje {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  
+  .res{
+    display: inline;
+  }
+
+  .container{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    gap: 8rem;
+    align-items: center;
+  }
+
+  .disabled{
+    opacity: 0.6; 
+    cursor: not-allowed;
+  }
+
+
+  .container{
+    background: linear-gradient(to right, #000000f5, #000000e7),url('img/fondo.jpg'); 
+    background-position: center;
+    background-size: cover;
+    height: 800px;
+  
+
+  }
+
+  .introduce{
+margin: 20px 0px;
+font-size: 5rem;
+  }
+
+  #mensaje{
+    font-size:3rem ;
+    font-weight: 700;
+  }
+
+  p{
+    font-size: 3rem;
+  }
+
+span{
+  font-size: 3rem;
+}
+
+h1{
+  font-size: 5rem;
+  color: white;
+  display: inline-block;
+  width: 100%;
+  background: linear-gradient(to right, #00b09b, #96c93d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+
+.contenido{
+  margin-top: 3rem;
+}
+
+#contador{
+  font-size: 4rem;
+}
