@@ -1,7 +1,4 @@
 
-
-
-
 let numeroAzar = Math.floor(Math.random() * 100 + 1); // expande el rango desde 1 a 100
 // floor redondea para abajo  entre 1 y 100
 console.log(numeroAzar)
@@ -17,8 +14,8 @@ let cantidad = 10;
 function lanzarConfeti() {
     const duration = 15 * 1000; 
     const options = {
-        particleCount: 250, // Cantidad de partículas de confeti
-        spread: 200, // Extensión del área de confeti
+        particleCount: 250, // Cantidad de de confetis
+        spread: 200, // Extensión del confeti
     };
 
     // Lanza el confeti
@@ -35,9 +32,9 @@ function lanzarConfeti() {
 function mostrarFelicidades() {
     const texto = document.createElement('div');
     texto.textContent = 'FELICITACIONES!';
-    texto.style.fontSize = '4rem';
+    texto.style.fontSize = '3rem';
     texto.style.position = 'absolute';
-    texto.style.top = '50%';
+    texto.style.top = '85%';
     texto.style.left = '50%';
     texto.style.color = '#2dc653';
     texto.style.transform = 'translate(-50%, -50%)';
